@@ -1,0 +1,2507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#F5F0E8">
+
+  <title>Dr. Faiez Ghanam Clinic | Dermatology & Laser Dubai</title>
+  <meta name="description" content="Discover specialist dermatology, vitiligo care, laser treatments and aesthetic services at Dr. Faiez Ghanam Clinic in Jumeirah, Dubai.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://drfaiezclinic.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dr. Faiez Ghanam Clinic | Dermatology & Aesthetic Care">
+  <meta property="og:description" content="Medical dermatology, advanced laser procedures and personalised aesthetic care in Jumeirah, Dubai.">
+  <meta property="og:url" content="https://drfaiezclinic.com/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --color-primary: #C3934F;
+      --color-primary-dark: #9B7138;
+      --color-primary-light: #D8C5A9;
+      --color-secondary: #6B6966;
+      --color-secondary-dark: #514F4C;
+      --color-secondary-light: #E5E0D9;
+      --color-accent: #D8C5A9;
+      --color-heading: #393329;
+      --color-text: #514B43;
+      --color-text-muted: #77716A;
+      --color-background: #F5F0E8;
+      --color-background-alt: #E9DFD1;
+      --color-surface: #FBF8F3;
+      --color-surface-alt: #F0E8DD;
+      --color-border: #E3D9CC;
+      --color-border-strong: #CDBDA8;
+      --color-interactive: #9B7138;
+      --color-interactive-hover: #79552D;
+      --color-focus: #393329;
+      --color-white: #FFFFFF;
+
+      --font-heading: "Cormorant Garamond", Georgia, serif;
+      --font-body: "Manrope", Arial, sans-serif;
+
+      --container: 1220px;
+      --radius-sm: 8px;
+      --radius-md: 18px;
+      --radius-lg: 28px;
+      --shadow-soft: 0 18px 55px rgba(57, 51, 41, .09);
+      --shadow-card: 0 12px 35px rgba(57, 51, 41, .07);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      margin: 0;
+      color: var(--color-text);
+      background: var(--color-background);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body,
+    button,
+    a {
+      font-family: var(--font-body);
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--color-focus);
+      outline-offset: 4px;
+    }
+
+    .container {
+      width: min(var(--container), calc(100% - 48px));
+      margin-inline: auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--color-primary-dark);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .2em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      width: 28px;
+      height: 1px;
+      background: var(--color-primary);
+      content: "";
+    }
+
+    .section-heading {
+      max-width: 760px;
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: clamp(38px, 5vw, 62px);
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.02;
+    }
+
+    .section-copy {
+      max-width: 620px;
+      margin: 20px 0 0;
+      color: var(--color-text-muted);
+      font-size: 16px;
+      line-height: 1.9;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 54px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 25px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .035em;
+      text-align: center;
+      transition: background .25s ease, color .25s ease, transform .25s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      color: var(--color-white);
+      background: var(--color-primary-dark);
+    }
+
+    .button-primary:hover {
+      background: var(--color-interactive-hover);
+    }
+
+    .button-outline {
+      border-color: var(--color-border-strong);
+      color: var(--color-heading);
+      background: transparent;
+    }
+
+    .button-outline:hover {
+      border-color: var(--color-primary);
+      background: var(--color-surface);
+    }
+
+    .button-light {
+      color: var(--color-heading);
+      background: var(--color-background);
+    }
+
+    .button-light:hover {
+      background: var(--color-white);
+    }
+
+    .topbar {
+      padding: 9px 0;
+      color: #F5F0E8;
+      background: var(--color-heading);
+      font-size: 11px;
+      letter-spacing: .08em;
+    }
+
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .topbar a {
+      color: #E5D4BB;
+      font-weight: 800;
+    }
+
+    .site-header {
+      position: sticky;
+      z-index: 100;
+      top: 0;
+      border-bottom: 1px solid rgba(57, 51, 41, .09);
+      background: rgba(245, 240, 232, .94);
+      backdrop-filter: blur(16px);
+    }
+
+    .nav-wrap {
+      display: flex;
+      min-height: 86px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+
+    .brand {
+      display: flex;
+      min-width: 220px;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 46px;
+      height: 46px;
+      flex: 0 0 46px;
+      place-items: center;
+      border: 1px solid var(--color-primary);
+      border-radius: 50%;
+      color: var(--color-primary-dark);
+      font-family: var(--font-heading);
+      font-size: 25px;
+      line-height: 1;
+    }
+
+    .brand-name {
+      display: block;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 21px;
+      font-weight: 600;
+      line-height: 1;
+    }
+
+    .brand-subtitle {
+      display: block;
+      margin-top: 6px;
+      color: var(--color-text-muted);
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: clamp(16px, 2.3vw, 31px);
+    }
+
+    .nav-links a {
+      color: var(--color-heading);
+      font-size: 12px;
+      font-weight: 700;
+      transition: color .2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--color-primary-dark);
+    }
+
+    .nav-action {
+      flex-shrink: 0;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 46px;
+      height: 46px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--color-border);
+      border-radius: 4px;
+      color: var(--color-heading);
+      background: transparent;
+      font-size: 23px;
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 76px 0 86px;
+      background:
+        radial-gradient(circle at 80% 30%, rgba(195, 147, 79, .13), transparent 32%),
+        var(--color-background);
+    }
+
+    .hero::before {
+      position: absolute;
+      top: 4%;
+      right: -110px;
+      width: 480px;
+      height: 480px;
+      border: 1px solid rgba(195, 147, 79, .2);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.03fr .97fr;
+      align-items: center;
+      gap: 70px;
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 2;
+      padding: 20px 0;
+    }
+
+    .hero h1 {
+      max-width: 700px;
+      margin: 24px 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: clamp(54px, 6.2vw, 83px);
+      font-weight: 500;
+      letter-spacing: -.045em;
+      line-height: .98;
+    }
+
+    .hero h1 em {
+      color: var(--color-primary-dark);
+      font-weight: 400;
+    }
+
+    .hero-copy > p {
+      max-width: 530px;
+      margin: 0;
+      color: var(--color-text-muted);
+      font-size: 16px;
+      line-height: 1.95;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 32px;
+    }
+
+    .hero-note {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 38px;
+      color: var(--color-text-muted);
+      font-size: 12px;
+    }
+
+    .hero-note span {
+      width: 34px;
+      height: 1px;
+      background: var(--color-primary);
+    }
+
+    .hero-visual {
+      position: relative;
+      min-height: 560px;
+    }
+
+    .hero-image {
+      position: absolute;
+      inset: 0 25px 35px 48px;
+      overflow: hidden;
+      border-radius: 190px 190px 12px 12px;
+      background: #D7C8B6;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .hero-image::after {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 50%, rgba(57, 51, 41, .23));
+      content: "";
+    }
+
+    .hero-caption {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      width: 245px;
+      padding: 22px 24px;
+      color: var(--color-background);
+      background: var(--color-heading);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-caption small {
+      display: block;
+      color: var(--color-primary-light);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .hero-caption strong {
+      display: block;
+      margin-top: 8px;
+      font-family: var(--font-heading);
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 1.1;
+    }
+
+    .hero-index {
+      position: absolute;
+      top: 34px;
+      left: 0;
+      z-index: 3;
+      display: grid;
+      width: 68px;
+      height: 68px;
+      place-items: center;
+      border: 1px solid var(--color-primary);
+      border-radius: 50%;
+      color: var(--color-primary-dark);
+      background: var(--color-background);
+      font-family: var(--font-heading);
+      font-size: 20px;
+    }
+
+    /* Trust strip */
+
+    .trust-strip {
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .trust-item {
+      display: flex;
+      min-height: 104px;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+      border-right: 1px solid var(--color-border);
+    }
+
+    .trust-item:last-child {
+      border-right: 0;
+    }
+
+    .trust-symbol {
+      color: var(--color-primary-dark);
+      font-family: var(--font-heading);
+      font-size: 28px;
+    }
+
+    .trust-item strong {
+      display: block;
+      color: var(--color-heading);
+      font-size: 12px;
+    }
+
+    .trust-item span:last-child {
+      display: block;
+      margin-top: 3px;
+      color: var(--color-text-muted);
+      font-size: 11px;
+    }
+
+    /* Introduction */
+
+    .intro {
+      padding: 120px 0;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 100px;
+      align-items: start;
+    }
+
+    .intro-aside {
+      padding-top: 10px;
+    }
+
+    .intro-aside p {
+      max-width: 330px;
+      margin: 22px 0 0;
+      color: var(--color-text-muted);
+      font-size: 15px;
+      line-height: 1.9;
+    }
+
+    .intro-main h2 {
+      max-width: 780px;
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: clamp(40px, 5.3vw, 67px);
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.05;
+    }
+
+    .intro-main h2 span {
+      color: var(--color-primary-dark);
+      font-style: italic;
+    }
+
+    .intro-main p {
+      max-width: 700px;
+      margin: 26px 0 0;
+      color: var(--color-text-muted);
+      font-size: 16px;
+      line-height: 2;
+    }
+
+    /* Services */
+
+    .services {
+      padding: 110px 0 120px;
+      background: var(--color-background-alt);
+    }
+
+    .services-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 35px;
+      margin-bottom: 54px;
+    }
+
+    .services-head .section-copy {
+      max-width: 430px;
+      margin-top: 0;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .service-card {
+      position: relative;
+      display: flex;
+      min-height: 330px;
+      flex-direction: column;
+      padding: 34px 30px;
+      border: 1px solid rgba(57, 51, 41, .11);
+      background: rgba(251, 248, 243, .74);
+      transition: transform .3s ease, box-shadow .3s ease, background .3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      background: var(--color-surface);
+      box-shadow: var(--shadow-card);
+    }
+
+    .service-number {
+      color: var(--color-primary-dark);
+      font-family: var(--font-heading);
+      font-size: 19px;
+    }
+
+    .service-card h3 {
+      margin: 28px 0 12px;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 34px;
+      font-weight: 500;
+      line-height: 1.05;
+    }
+
+    .service-card p {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-size: 14px;
+      line-height: 1.85;
+    }
+
+    .service-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: auto;
+      padding-top: 28px;
+      color: var(--color-primary-dark);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    .service-link span {
+      transition: transform .2s ease;
+    }
+
+    .service-link:hover span {
+      transform: translateX(5px);
+    }
+
+    /* Signature feature */
+
+    .signature {
+      position: relative;
+      overflow: hidden;
+      padding: 120px 0;
+      color: var(--color-background);
+      background: var(--color-heading);
+    }
+
+    .signature::before {
+      position: absolute;
+      top: -220px;
+      right: -100px;
+      width: 600px;
+      height: 600px;
+      border: 1px solid rgba(195, 147, 79, .25);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .signature-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      align-items: center;
+      gap: 90px;
+    }
+
+    .signature-image {
+      position: relative;
+      min-height: 530px;
+      overflow: hidden;
+      border-radius: 180px 180px 10px 10px;
+      background: #75685A;
+    }
+
+    .signature-image img {
+      width: 100%;
+      height: 530px;
+      object-fit: cover;
+    }
+
+    .signature-copy .eyebrow {
+      color: var(--color-primary-light);
+    }
+
+    .signature-copy h2 {
+      margin: 24px 0;
+      color: var(--color-background);
+      font-family: var(--font-heading);
+      font-size: clamp(44px, 5vw, 66px);
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.02;
+    }
+
+    .signature-copy p {
+      max-width: 550px;
+      color: #D3C8B9;
+      font-size: 15px;
+      line-height: 1.95;
+    }
+
+    .signature-points {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 13px;
+      margin: 30px 0 34px;
+    }
+
+    .signature-point {
+      padding: 13px 15px;
+      border: 1px solid rgba(216, 197, 169, .25);
+      color: #E7DCCD;
+      font-size: 12px;
+    }
+
+    /* Six custom icons */
+
+    .approach {
+      padding: 115px 0 120px;
+    }
+
+    .approach-heading {
+      max-width: 700px;
+      margin-bottom: 55px;
+    }
+
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--color-border-strong);
+      border-left: 1px solid var(--color-border-strong);
+    }
+
+    .icon-item {
+      min-height: 235px;
+      padding: 32px;
+      border-right: 1px solid var(--color-border-strong);
+      border-bottom: 1px solid var(--color-border-strong);
+    }
+
+    .icon-box {
+      display: grid;
+      width: 58px;
+      height: 58px;
+      place-items: center;
+      border: 1px solid var(--color-primary-light);
+      border-radius: 50%;
+      color: var(--color-primary-dark);
+      background: var(--color-surface);
+    }
+
+    .icon-box svg {
+      width: 27px;
+      height: 27px;
+      fill: none;
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 1.5;
+    }
+
+    .icon-item h3 {
+      margin: 23px 0 9px;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 28px;
+      font-weight: 500;
+    }
+
+    .icon-item p {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    /* Doctor section */
+
+    .doctor {
+      padding: 105px 0;
+      background: var(--color-surface-alt);
+    }
+
+    .doctor-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 80px;
+    }
+
+    .doctor-copy h2 {
+      margin: 20px 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: clamp(42px, 5vw, 64px);
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.03;
+    }
+
+    .doctor-copy p {
+      color: var(--color-text-muted);
+      font-size: 15px;
+      line-height: 1.95;
+    }
+
+    .doctor-copy .button {
+      margin-top: 20px;
+    }
+
+    .doctor-visual {
+      position: relative;
+      min-height: 430px;
+      padding: 38px;
+      background: var(--color-background-alt);
+    }
+
+    .doctor-visual-inner {
+      display: flex;
+      height: 100%;
+      min-height: 354px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 45px;
+      border: 1px solid var(--color-primary-light);
+      text-align: center;
+    }
+
+    .doctor-initials {
+      display: grid;
+      width: 104px;
+      height: 104px;
+      place-items: center;
+      border: 1px solid var(--color-primary);
+      border-radius: 50%;
+      color: var(--color-primary-dark);
+      font-family: var(--font-heading);
+      font-size: 43px;
+    }
+
+    .doctor-visual-inner strong {
+      margin-top: 24px;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 29px;
+      font-weight: 500;
+    }
+
+    .doctor-visual-inner span {
+      margin-top: 7px;
+      color: var(--color-text-muted);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    /* Team */
+
+    .team {
+      padding: 110px 0;
+    }
+
+    .team-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 45px;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .team-card {
+      padding: 28px;
+      border: 1px solid var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .team-monogram {
+      display: grid;
+      width: 68px;
+      height: 68px;
+      place-items: center;
+      border-radius: 50%;
+      color: var(--color-primary-dark);
+      background: var(--color-background-alt);
+      font-family: var(--font-heading);
+      font-size: 27px;
+    }
+
+    .team-card h3 {
+      margin: 22px 0 5px;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 27px;
+      font-weight: 500;
+    }
+
+    .team-card .role {
+      color: var(--color-primary-dark);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    .team-card p {
+      margin: 13px 0 0;
+      color: var(--color-text-muted);
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    /* Gallery */
+
+    .gallery {
+      padding: 105px 0 115px;
+      background: var(--color-background-alt);
+    }
+
+    .gallery-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 42px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr .8fr;
+      gap: 16px;
+    }
+
+    .gallery-figure {
+      position: relative;
+      min-height: 350px;
+      margin: 0;
+      overflow: hidden;
+      background: #D4C5B2;
+    }
+
+    .gallery-figure img {
+      width: 100%;
+      height: 100%;
+      min-height: 350px;
+      object-fit: cover;
+      transition: transform .6s ease;
+    }
+
+    .gallery-figure:hover img {
+      transform: scale(1.04);
+    }
+
+    .gallery-figure figcaption {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 35px 20px 18px;
+      color: var(--color-white);
+      background: linear-gradient(transparent, rgba(41, 37, 31, .7));
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .gallery-note {
+      margin: 18px 0 0;
+      color: var(--color-text-muted);
+      font-size: 12px;
+    }
+
+    /* FAQ */
+
+    .faq {
+      padding: 115px 0;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: .75fr 1.25fr;
+      gap: 90px;
+    }
+
+    .faq-intro p {
+      max-width: 360px;
+      color: var(--color-text-muted);
+      font-size: 15px;
+      line-height: 1.9;
+    }
+
+    .faq-list details {
+      border-bottom: 1px solid var(--color-border-strong);
+    }
+
+    .faq-list details:first-child {
+      border-top: 1px solid var(--color-border-strong);
+    }
+
+    .faq-list summary {
+      position: relative;
+      padding: 22px 42px 22px 0;
+      color: var(--color-heading);
+      font-size: 14px;
+      font-weight: 800;
+      list-style: none;
+      cursor: pointer;
+    }
+
+    .faq-list summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-list summary::after {
+      position: absolute;
+      top: 18px;
+      right: 4px;
+      color: var(--color-primary-dark);
+      content: "+";
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    .faq-list details[open] summary::after {
+      content: "−";
+    }
+
+    .faq-list details p {
+      max-width: 650px;
+      margin: 0;
+      padding: 0 35px 22px 0;
+      color: var(--color-text-muted);
+      font-size: 14px;
+      line-height: 1.9;
+    }
+
+    /* Contact */
+
+    .contact {
+      position: relative;
+      overflow: hidden;
+      padding: 105px 0;
+      color: var(--color-background);
+      background: var(--color-heading);
+    }
+
+    .contact::after {
+      position: absolute;
+      right: -170px;
+      bottom: -360px;
+      width: 600px;
+      height: 600px;
+      border: 1px solid rgba(195, 147, 79, .24);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .contact-grid {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr .8fr;
+      gap: 80px;
+    }
+
+    .contact-copy .eyebrow {
+      color: var(--color-primary-light);
+    }
+
+    .contact-copy h2 {
+      max-width: 620px;
+      margin: 22px 0;
+      color: var(--color-background);
+      font-family: var(--font-heading);
+      font-size: clamp(45px, 5vw, 68px);
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.02;
+    }
+
+    .contact-copy p {
+      max-width: 510px;
+      color: #D3C8B9;
+      font-size: 15px;
+      line-height: 1.9;
+    }
+
+    .contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .contact-details {
+      padding: 30px;
+      border: 1px solid rgba(216, 197, 169, .28);
+      background: rgba(255, 255, 255, .035);
+    }
+
+    .contact-details h3 {
+      margin: 0 0 24px;
+      color: var(--color-primary-light);
+      font-family: var(--font-heading);
+      font-size: 29px;
+      font-weight: 500;
+    }
+
+    .contact-row {
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(216, 197, 169, .18);
+    }
+
+    .contact-row:last-child {
+      border-bottom: 0;
+    }
+
+    .contact-row span {
+      display: block;
+      color: var(--color-primary-light);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .contact-row a,
+    .contact-row p {
+      display: block;
+      margin: 7px 0 0;
+      color: var(--color-background);
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .contact-row a:hover {
+      color: var(--color-primary-light);
+    }
+
+    /* Footer */
+
+    .footer {
+      padding: 45px 0 30px;
+      color: #D3C8B9;
+      background: #29251F;
+    }
+
+    .footer-main {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 40px;
+      padding-bottom: 34px;
+      border-bottom: 1px solid rgba(216, 197, 169, .17);
+    }
+
+    .footer .brand-name {
+      color: var(--color-background);
+    }
+
+    .footer .brand-subtitle {
+      color: #BEB2A2;
+    }
+
+    .footer-copy {
+      max-width: 380px;
+      margin: 17px 0 0;
+      color: #BEB2A2;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+    }
+
+    .footer-links a {
+      color: #E8DED1;
+      font-size: 12px;
+    }
+
+    .footer-links a:hover {
+      color: var(--color-primary-light);
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding-top: 23px;
+      color: #AFA395;
+      font-size: 11px;
+    }
+
+    .medical-note {
+      max-width: 720px;
+      margin-top: 15px;
+      color: #AFA395;
+      font-size: 10px;
+      line-height: 1.7;
+    }
+
+    /* Mobile menu and sticky actions */
+
+    .mobile-cta {
+      display: none;
+    }
+
+    @media (max-width: 1050px) {
+      .nav-links {
+        gap: 15px;
+      }
+
+      .nav-links a {
+        font-size: 11px;
+      }
+
+      .hero-grid {
+        gap: 38px;
+      }
+
+      .hero-visual {
+        min-height: 490px;
+      }
+
+      .intro-grid,
+      .signature-grid,
+      .doctor-grid,
+      .faq-grid {
+        gap: 55px;
+      }
+    }
+
+    @media (max-width: 820px) {
+      .container {
+        width: min(100% - 38px, 650px);
+      }
+
+      .nav-wrap {
+        min-height: 74px;
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+
+      .nav-action {
+        display: none;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        display: none;
+        align-items: stretch;
+        flex-direction: column;
+        gap: 0;
+        padding: 12px 22px 22px;
+        border-bottom: 1px solid var(--color-border);
+        background: var(--color-background);
+        box-shadow: var(--shadow-card);
+      }
+
+      .nav-links.is-open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 13px 4px;
+        border-bottom: 1px solid var(--color-border);
+        font-size: 13px;
+      }
+
+      .hero {
+        padding: 55px 0 65px;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 34px;
+      }
+
+      .hero-copy {
+        padding: 0;
+      }
+
+      .hero h1 {
+        max-width: 620px;
+        font-size: clamp(54px, 10vw, 76px);
+      }
+
+      .hero-visual {
+        min-height: 480px;
+        max-width: 570px;
+        width: 100%;
+        margin-inline: auto;
+      }
+
+      .hero-image {
+        inset: 0 18px 25px 30px;
+      }
+
+      .hero-index {
+        top: 25px;
+        width: 58px;
+        height: 58px;
+      }
+
+      .trust-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-item {
+        min-height: 82px;
+        justify-content: flex-start;
+        padding-left: 10%;
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+      }
+
+      .trust-item:last-child {
+        border-bottom: 0;
+      }
+
+      .intro,
+      .services,
+      .approach,
+      .team,
+      .faq {
+        padding: 80px 0;
+      }
+
+      .intro-grid,
+      .signature-grid,
+      .doctor-grid,
+      .faq-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 38px;
+      }
+
+      .intro-aside p {
+        max-width: 600px;
+      }
+
+      .services-head,
+      .team-heading,
+      .gallery-head {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .service-card {
+        min-height: 300px;
+        padding: 27px 23px;
+      }
+
+      .signature {
+        padding: 80px 0;
+      }
+
+      .signature-image {
+        min-height: 400px;
+        max-width: 560px;
+      }
+
+      .signature-image img {
+        height: 400px;
+      }
+
+      .icon-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .doctor {
+        padding: 80px 0;
+      }
+
+      .doctor-visual {
+        min-height: 350px;
+      }
+
+      .doctor-visual-inner {
+        min-height: 275px;
+      }
+
+      .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .gallery {
+        padding: 80px 0;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .gallery-figure:first-child {
+        grid-column: span 2;
+      }
+
+      .gallery-figure,
+      .gallery-figure img {
+        min-height: 290px;
+      }
+
+      .contact {
+        padding: 80px 0;
+      }
+
+      .footer-main {
+        flex-direction: column;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+      }
+
+      .mobile-cta {
+        position: fixed;
+        z-index: 200;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+        border-top: 1px solid var(--color-border);
+        background: rgba(245, 240, 232, .97);
+        box-shadow: 0 -8px 30px rgba(57, 51, 41, .12);
+        backdrop-filter: blur(12px);
+      }
+
+      .mobile-cta .button {
+        min-height: 50px;
+        padding: 11px 10px;
+        font-size: 11px;
+      }
+
+      body {
+        padding-bottom: 82px;
+      }
+    }
+
+    @media (max-width: 540px) {
+      .container {
+        width: calc(100% - 34px);
+      }
+
+      .topbar {
+        font-size: 10px;
+      }
+
+      .topbar-inner {
+        justify-content: center;
+      }
+
+      .topbar-inner span:first-child {
+        display: none;
+      }
+
+      .brand {
+        min-width: 0;
+      }
+
+      .brand-mark {
+        width: 41px;
+        height: 41px;
+        flex-basis: 41px;
+      }
+
+      .brand-name {
+        font-size: 19px;
+      }
+
+      .brand-subtitle {
+        font-size: 8px;
+      }
+
+      .hero {
+        padding-top: 44px;
+      }
+
+      .hero h1 {
+        font-size: clamp(49px, 13vw, 62px);
+      }
+
+      .hero-copy > p {
+        font-size: 14px;
+      }
+
+      .hero-actions {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .hero-actions .button {
+        width: 100%;
+      }
+
+      .hero-visual {
+        min-height: 390px;
+      }
+
+      .hero-image {
+        inset: 0 12px 20px 22px;
+        border-radius: 140px 140px 10px 10px;
+      }
+
+      .hero-caption {
+        width: 205px;
+        padding: 17px;
+      }
+
+      .hero-caption strong {
+        font-size: 22px;
+      }
+
+      .hero-index {
+        width: 48px;
+        height: 48px;
+        font-size: 16px;
+      }
+
+      .section-heading {
+        font-size: 43px;
+      }
+
+      .intro-main h2 {
+        font-size: 46px;
+      }
+
+      .service-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-card {
+        min-height: 260px;
+      }
+
+      .signature-copy h2 {
+        font-size: 48px;
+      }
+
+      .signature-image,
+      .signature-image img {
+        min-height: 330px;
+        height: 330px;
+      }
+
+      .signature-points {
+        grid-template-columns: 1fr;
+      }
+
+      .icon-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .icon-item {
+        min-height: 225px;
+        padding: 21px 16px;
+      }
+
+      .icon-item h3 {
+        font-size: 24px;
+      }
+
+      .icon-item p {
+        font-size: 12px;
+      }
+
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-figure:first-child {
+        grid-column: auto;
+      }
+
+      .gallery-figure,
+      .gallery-figure img {
+        min-height: 300px;
+      }
+
+      .doctor-visual {
+        padding: 20px;
+      }
+
+      .doctor-visual-inner {
+        min-height: 280px;
+        padding: 28px;
+      }
+
+      .contact-details {
+        padding: 22px;
+      }
+
+      .contact-actions {
+        flex-direction: column;
+      }
+
+      .contact-actions .button {
+        width: 100%;
+      }
+
+      .footer-links {
+        gap: 14px;
+      }
+
+      body {
+        padding-bottom: 84px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Dr. Faiez Ghanam Dermatology, Cosmetic and Laser Center",
+    "url": "https://drfaiezclinic.com/",
+    "telephone": "+97143493555",
+    "email": "info@drfaiezclinic.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Villa #6, 122 Jumeirah Beach Road, Facing Old Dubai Zoo",
+      "addressLocality": "Jumeirah First, Dubai",
+      "addressCountry": "AE"
+    },
+    "medicalSpecialty": [
+      "Dermatology",
+      "Cosmetic Dermatology"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>DERMATOLOGY · COSMETIC CARE · LASER TECHNOLOGY</span>
+      <span>Appointments: <a href="tel:+97143493555">+971 4 349 3555</a></span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+
+      <a class="brand" href="#home" aria-label="Dr. Faiez Ghanam Clinic home">
+        <span class="brand-mark">F</span>
+        <span>
+          <span class="brand-name">Dr. Faiez Ghanam</span>
+          <span class="brand-subtitle">Dermatology · Cosmetic · Laser</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="main-navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#treatments">Treatments</a>
+        <a href="#doctor">Our Doctor</a>
+        <a href="#team">Medical Team</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="button button-primary nav-action"
+         href="https://wa.me/97143493555"
+         target="_blank"
+         rel="noopener noreferrer">
+        Book an Appointment
+      </a>
+
+      <button class="menu-toggle"
+              id="menu-toggle"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+              aria-controls="main-navigation">
+        ☰
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <span class="eyebrow">Dermatology & Aesthetic Care · Dubai</span>
+
+          <h1>
+            Expert skin care.<br>
+            <em>Confidence</em> in<br>
+            every detail.
+          </h1>
+
+          <p>
+            Discover medical dermatology, advanced laser procedures and
+            personalised aesthetic care at Dr. Faiez Ghanam Clinic in
+            Jumeirah, Dubai. Every treatment journey begins with understanding
+            your skin and your individual needs.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary"
+               href="https://wa.me/97143493555"
+               target="_blank"
+               rel="noopener noreferrer">
+              Book Your Consultation <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="button button-outline" href="#treatments">
+              Explore Treatments
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span></span>
+            Specialist-led dermatology and aesthetic services in Dubai
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <span class="hero-index">FG</span>
+
+          <div class="hero-image">
+            <img
+              src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1100&q=85"
+              alt="Illustrative skincare treatment photography"
+              fetchpriority="high">
+          </div>
+
+          <div class="hero-caption">
+            <small>Care with intention</small>
+            <strong>Healthy skin begins with the right approach.</strong>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust-strip" aria-label="Clinic information">
+      <div class="container trust-grid">
+
+        <div class="trust-item">
+          <span class="trust-symbol">01</span>
+          <div>
+            <strong>Over 30 Years of Experience</strong>
+            <span>Dr. Faiez Ghanam's dermatology experience</span>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <span class="trust-symbol">02</span>
+          <div>
+            <strong>Medical & Aesthetic Care</strong>
+            <span>Dermatology, cosmetic and laser services</span>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <span class="trust-symbol">03</span>
+          <div>
+            <strong>Jumeirah, Dubai</strong>
+            <span>Located on Jumeirah Beach Road</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="intro" id="about">
+      <div class="container intro-grid">
+
+        <aside class="intro-aside">
+          <span class="eyebrow">A considered approach to skin</span>
+          <p>
+            A clinic experience built around medical knowledge, modern
+            treatment options and attention to individual needs.
+          </p>
+        </aside>
+
+        <div class="intro-main">
+          <h2>
+            Your skin deserves more than a
+            <span>one-size-fits-all</span> approach.
+          </h2>
+
+          <p>
+            Dr. Faiez Ghanam Clinic brings together dermatology, cosmetic
+            medicine and laser services in one specialist setting. From
+            ongoing skin concerns to aesthetic treatment goals, the focus
+            is on understanding each patient's needs before considering
+            suitable options.
+          </p>
+
+          <p>
+            Whether you are exploring care for vitiligo, acne, pigmentation,
+            hair concerns or aesthetic treatments, the next step is a
+            professional assessment and a conversation about your options.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TREATMENTS -->
+    <section class="services" id="treatments">
+      <div class="container">
+
+        <div class="services-head">
+          <div>
+            <span class="eyebrow">Explore our services</span>
+            <h2 class="section-heading">Care shaped around your skin needs.</h2>
+          </div>
+
+          <p class="section-copy">
+            Explore the clinic's treatment areas and discover the services
+            relevant to your concerns. Suitability is determined through
+            an individual medical assessment.
+          </p>
+        </div>
+
+        <div class="service-grid">
+
+          <article class="service-card">
+            <span class="service-number">01 / SKIN CONDITIONS</span>
+            <h3>Vitiligo & Skin Conditions</h3>
+            <p>
+              Explore dermatology care and treatment options for vitiligo
+              and other skin conditions, guided by specialist assessment.
+            </p>
+            <a class="service-link"
+               href="https://drfaiezclinic.com/services/vitiligo-treatment-advanced-light-topical-therapies/">
+              Explore Vitiligo Care <span>→</span>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">02 / ACNE & SCARRING</span>
+            <h3>Acne & Acne Scars</h3>
+            <p>
+              Learn about acne management and procedures that may help
+              address residual marks, uneven texture and scarring.
+            </p>
+            <a class="service-link"
+               href="https://drfaiezclinic.com/services/acne-treatment-protocol/">
+              Explore Acne Care <span>→</span>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">03 / PIGMENTATION</span>
+            <h3>Pigmentation & Skin Tone</h3>
+            <p>
+              Discover treatment options for concerns such as melasma,
+              freckles, sun spots and uneven skin tone.
+            </p>
+            <a class="service-link"
+               href="https://drfaiezclinic.com/services/q-switched-deka-studio/">
+              Explore Pigmentation Care <span>→</span>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">04 / HAIR & SCALP</span>
+            <h3>Hair & Scalp Concerns</h3>
+            <p>
+              Explore available hair-related treatment services and discuss
+              the appropriate options with the clinic's medical team.
+            </p>
+            <a class="service-link"
+               href="https://drfaiezclinic.com/">
+              Explore Clinic Services <span>→</span>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">05 / LASER PROCEDURES</span>
+            <h3>Advanced Laser Care</h3>
+            <p>
+              Explore laser services for selected skin concerns, including
+              pigmentation, texture and other treatment needs.
+            </p>
+            <a class="service-link"
+               href="https://drfaiezclinic.com/services/fractional-laser-ipixel/">
+              Explore Laser Care <span>→</span>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">06 / AESTHETIC CARE</span>
+            <h3>Cosmetic & Aesthetic Treatments</h3>
+            <p>
+              Discover aesthetic procedures and personalised treatment
+              options designed around individual goals and assessment.
+            </p>
+            <a class="service-link"
+               href="https://drfaiezclinic.com/">
+              Explore Aesthetic Care <span>→</span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- VITILIGO SIGNATURE SECTION -->
+    <section class="signature">
+      <div class="container signature-grid">
+
+        <div class="signature-image">
+          <img
+            src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1000&q=85"
+            alt="Illustrative dermatology and skincare treatment setting"
+            loading="lazy">
+        </div>
+
+        <div class="signature-copy">
+          <span class="eyebrow">A specialist area of experience</span>
+
+          <h2>
+            A focused approach to vitiligo care.
+          </h2>
+
+          <p>
+            Dr. Faiez Ghanam has more than 30 years of experience in
+            dermatology, including the treatment and management of vitiligo.
+            The clinic describes its approach as combining specialist
+            evaluation with available light-based and topical treatment
+            options.
+          </p>
+
+          <p>
+            Vitiligo care is individual. Treatment choices, suitability
+            and expected progress should be discussed with a qualified
+            medical professional after assessment.
+          </p>
+
+          <div class="signature-points">
+            <div class="signature-point">Specialist evaluation</div>
+            <div class="signature-point">Individual treatment planning</div>
+            <div class="signature-point">Light-based treatment options</div>
+            <div class="signature-point">Ongoing progress monitoring</div>
+          </div>
+
+          <a class="button button-light"
+             href="https://drfaiezclinic.com/services/vitiligo-treatment-advanced-light-topical-therapies/">
+            Learn About Vitiligo Treatment
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- APPROACH / SIX SVG ICONS -->
+    <section class="approach">
+      <div class="container">
+
+        <div class="approach-heading">
+          <span class="eyebrow">The patient experience</span>
+          <h2 class="section-heading">A more thoughtful treatment journey.</h2>
+          <p class="section-copy">
+            Good care starts with understanding. The right treatment pathway
+            should reflect your concerns, medical history and individual
+            suitability.
+          </p>
+        </div>
+
+        <div class="icon-grid">
+
+          <article class="icon-item">
+            <div class="icon-box">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="10.5" cy="10.5" r="6.5"></circle>
+                <path d="m16 16 4.5 4.5"></path>
+                <path d="M8 10.5h5M10.5 8v5"></path>
+              </svg>
+            </div>
+            <h3>Understand</h3>
+            <p>
+              Begin by discussing your skin concerns, goals and relevant
+              medical history with the clinic.
+            </p>
+          </article>
+
+          <article class="icon-item">
+            <div class="icon-box">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3 4.5 6v5.2c0 4.8 3.1 8 7.5 9.8 4.4-1.8 7.5-5 7.5-9.8V6L12 3Z"></path>
+                <path d="m8.5 12 2.3 2.3 4.7-5"></path>
+              </svg>
+            </div>
+            <h3>Assess</h3>
+            <p>
+              A professional assessment helps determine which treatment
+              options may be suitable for your needs.
+            </p>
+          </article>
+
+          <article class="icon-item">
+            <div class="icon-box">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 19h16M6 16l4-4 3 2 5-7"></path>
+                <path d="M14 7h4v4"></path>
+                <circle cx="6" cy="6" r="2"></circle>
+              </svg>
+            </div>
+            <h3>Plan</h3>
+            <p>
+              Understand the proposed approach, possible alternatives
+              and the expectations discussed with your specialist.
+            </p>
+          </article>
+
+          <article class="icon-item">
+            <div class="icon-box">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 3h10v4H7z"></path>
+                <path d="M5 7h14v14H5z"></path>
+                <path d="M8 12h8M8 16h5"></path>
+              </svg>
+            </div>
+            <h3>Prepare</h3>
+            <p>
+              Receive relevant preparation and aftercare guidance before
+              proceeding with a treatment.
+            </p>
+          </article>
+
+          <article class="icon-item">
+            <div class="icon-box">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 12a9 9 0 1 0 2.7-6.4"></path>
+                <path d="M3 4v5h5"></path>
+                <path d="M12 7v5l3 2"></path>
+              </svg>
+            </div>
+            <h3>Follow Up</h3>
+            <p>
+              Where appropriate, review progress and discuss any adjustments
+              to the treatment plan with your medical team.
+            </p>
+          </article>
+
+          <article class="icon-item">
+            <div class="icon-box">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 20s-7-4.3-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.7-7 10-7 10Z"></path>
+                <path d="M8 12h2l1.3-2.5 2 5L15 12h1"></path>
+              </svg>
+            </div>
+            <h3>Maintain</h3>
+            <p>
+              Discuss suitable ongoing care, skin protection and maintenance
+              recommendations for your individual needs.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DOCTOR -->
+    <section class="doctor" id="doctor">
+      <div class="container doctor-grid">
+
+        <div class="doctor-copy">
+          <span class="eyebrow">Meet your dermatologist</span>
+
+          <h2>Experience grounded in dermatology.</h2>
+
+          <p>
+            Dr. Faiez Ghanam has over 30 years of experience in dermatology
+            and cosmetic medicine. His professional background includes
+            work in vitiligo management, skin conditions and aesthetic
+            dermatology.
+          </p>
+
+          <p>
+            His profile also describes participation in international
+            conferences, specialist training and professional dermatology
+            activities.
+          </p>
+
+          <a class="button button-primary"
+             href="https://drfaiezclinic.com/doctors/dr-faiez-ghanam/">
+            View Doctor Profile <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="doctor-visual">
+          <div class="doctor-visual-inner">
+            <div class="doctor-initials">FG</div>
+            <strong>Dr. Faiez Ghanam</strong>
+            <span>Dermatology & Cosmetic Medicine</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MEDICAL TEAM -->
+    <section class="team" id="team">
+      <div class="container">
+
+        <div class="team-heading">
+          <div>
+            <span class="eyebrow">The clinic team</span>
+            <h2 class="section-heading">People behind your care.</h2>
+          </div>
+
+          <p class="section-copy">
+            Meet members of the clinic team and explore their professional
+            backgrounds through the clinic's individual profiles.
+          </p>
+        </div>
+
+        <div class="team-grid">
+
+          <article class="team-card">
+            <div class="team-monogram">FG</div>
+            <h3>Dr. Faiez Ghanam</h3>
+            <span class="role">Dermatology & Cosmetic Medicine</span>
+            <p>
+              More than 30 years of experience in dermatology and cosmetic
+              medicine, including vitiligo management.
+            </p>
+            <a class="service-link"
+               href="https://drfaiezclinic.com/doctors/dr-faiez-ghanam/">
+              View Profile <span>→</span>
+            </a>
+          </article>
+
+          <article class="team-card">
+            <div class="team-monogram">MS</div>
+            <h3>Dr. Maha Saleh</h3>
+            <span class="role">Laser Practitioner</span>
+            <p>
+              The clinic identifies Maha Saleh as a DHA-licensed laser
+              practitioner with a nursing background.
+            </p>
+            <a class="service-link"
+               href="https://drfaiezclinic.com/">
+              Clinic Information <span>→</span>
+            </a>
+          </article>
+
+          <article class="team-card">
+            <div class="team-monogram">AA</div>
+            <h3>Dr. Ammar Al-Azhari</h3>
+            <span class="role">Dermatology & Laser</span>
+            <p>
+              The clinic presents Dr. Ammar Al-Azhari as a dermatologist
+              with experience in dermatology and laser procedures.
+            </p>
+            <a class="service-link"
+               href="https://drfaiezclinic.com/doctors/dr-ammar-al-azhari/">
+              View Profile <span>→</span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- VISUAL GALLERY -->
+    <section class="gallery">
+      <div class="container">
+
+        <div class="gallery-head">
+          <div>
+            <span class="eyebrow">The clinic experience</span>
+            <h2 class="section-heading">Care in a considered setting.</h2>
+          </div>
+          <p class="section-copy">
+            Explore the clinic's published treatment information and
+            photographic content through its official website.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+
+          <figure class="gallery-figure">
+            <img
+              src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1000&q=85"
+              alt="Illustrative skincare treatment scene"
+              loading="lazy">
+            <figcaption>Personalised skincare and aesthetic care</figcaption>
+          </figure>
+
+          <figure class="gallery-figure">
+            <img
+              src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=85"
+              alt="Illustrative medical consultation setting"
+              loading="lazy">
+            <figcaption>Medical consultation</figcaption>
+          </figure>
+
+          <figure class="gallery-figure">
+            <img
+              src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=85"
+              alt="Illustrative facial skincare procedure"
+              loading="lazy">
+            <figcaption>Skin treatment experience</figcaption>
+          </figure>
+
+        </div>
+
+        <p class="gallery-note">
+          Illustrative stock photography. These images do not represent
+          actual clinic rooms, practitioners or patient results.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="container faq-grid">
+
+        <div class="faq-intro">
+          <span class="eyebrow">Useful information</span>
+          <h2 class="section-heading">Questions before your visit?</h2>
+          <p>
+            Here are a few starting points. Contact the clinic directly
+            for treatment-specific advice, appointment availability and
+            information about your individual circumstances.
+          </p>
+
+          <a class="button button-outline"
+             href="https://wa.me/97143493555"
+             target="_blank"
+             rel="noopener noreferrer">
+            Ask the Clinic
+          </a>
+        </div>
+
+        <div class="faq-list">
+
+          <details>
+            <summary>What treatments does Dr. Faiez Ghanam Clinic offer?</summary>
+            <p>
+              The clinic provides medical dermatology, cosmetic procedures
+              and laser services. Published treatment information includes
+              vitiligo care, acne treatment, pigmentation procedures,
+              hair-related services and aesthetic treatments.
+            </p>
+          </details>
+
+          <details>
+            <summary>How do I know which treatment is suitable for me?</summary>
+            <p>
+              Treatment suitability depends on your skin condition,
+              medical history, goals and a professional assessment.
+              Contact the clinic to discuss arranging a consultation.
+            </p>
+          </details>
+
+          <details>
+            <summary>Does the clinic provide vitiligo treatment?</summary>
+            <p>
+              Yes. The clinic publishes information about vitiligo
+              management, including light-based and topical treatment
+              approaches. A specialist should assess your individual
+              circumstances and discuss suitable options.
+            </p>
+          </details>
+
+          <details>
+            <summary>How can I book an appointment?</summary>
+            <p>
+              You can contact the clinic by telephone at +971 4 349 3555
+              or send an appointment enquiry through its WhatsApp contact.
+            </p>
+          </details>
+
+          <details>
+            <summary>Where is the clinic located?</summary>
+            <p>
+              The clinic is located at Villa #6, 122 Jumeirah Beach Road,
+              facing the Old Dubai Zoo, Jumeirah First, Dubai,
+              United Arab Emirates.
+            </p>
+          </details>
+
+          <details>
+            <summary>What should I expect during a consultation?</summary>
+            <p>
+              A consultation is an opportunity to explain your concerns,
+              discuss relevant medical history and understand potential
+              treatment options. The practitioner can advise on suitability,
+              risks, preparation and aftercare.
+            </p>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-copy">
+          <span class="eyebrow">Your next step</span>
+
+          <h2>Start with a conversation about your skin.</h2>
+
+          <p>
+            Whether you are exploring dermatology care, vitiligo management,
+            laser procedures or aesthetic treatments, contact the clinic
+            to discuss your enquiry and appointment options.
+          </p>
+
+          <div class="contact-actions">
+            <a class="button button-light"
+               href="https://wa.me/97143493555"
+               target="_blank"
+               rel="noopener noreferrer">
+              WhatsApp the Clinic ↗
+            </a>
+
+            <a class="button button-outline"
+               style="color:#F5F0E8;border-color:rgba(245,240,232,.5)"
+               href="tel:+97143493555">
+              Call +971 4 349 3555
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-details">
+          <h3>Visit the clinic</h3>
+
+          <div class="contact-row">
+            <span>Telephone</span>
+            <a href="tel:+97143493555">+971 4 349 3555</a>
+          </div>
+
+          <div class="contact-row">
+            <span>Email</span>
+            <a href="mailto:info@drfaiezclinic.com">info@drfaiezclinic.com</a>
+          </div>
+
+          <div class="contact-row">
+            <span>Address</span>
+            <p>
+              Facing Old Dubai Zoo, Villa #6,<br>
+              122 Jumeirah Beach Road,<br>
+              Jumeirah First, Dubai,<br>
+              United Arab Emirates.
+            </p>
+          </div>
+
+          <div class="contact-row">
+            <span>Website</span>
+            <a href="https://drfaiezclinic.com/">
+              drfaiezclinic.com
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-main">
+
+        <div>
+          <a class="brand" href="#home">
+            <span class="brand-mark">F</span>
+            <span>
+              <span class="brand-name">Dr. Faiez Ghanam</span>
+              <span class="brand-subtitle">Dermatology · Cosmetic · Laser</span>
+            </span>
+          </a>
+
+          <p class="footer-copy">
+            Specialist dermatology, cosmetic medicine and laser services
+            in Jumeirah, Dubai.
+          </p>
+        </div>
+
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#treatments">Treatments</a>
+          <a href="#doctor">Our Doctor</a>
+          <a href="#team">Medical Team</a>
+          <a href="#faq">FAQs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+      </div>
+
+      <p class="medical-note">
+        Website information is for general educational purposes and is
+        not a substitute for professional medical advice, diagnosis or
+        treatment. Treatment suitability and expected outcomes vary by
+        individual and should be discussed with a qualified practitioner.
+      </p>
+
+      <div class="footer-bottom">
+        <span>© <span id="current-year"></span> Dr. Faiez Ghanam Clinic. All rights reserved.</span>
+        <span>Dermatology & Aesthetic Care · Dubai, UAE</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- EXACTLY TWO MOBILE CTA BUTTONS -->
+  <div class="mobile-cta" aria-label="Quick appointment actions">
+    <a class="button button-outline" href="tel:+97143493555">
+      Call Clinic
+    </a>
+
+    <a class="button button-primary"
+       href="https://wa.me/97143493555"
+       target="_blank"
+       rel="noopener noreferrer">
+      Book Appointment
+    </a>
+  </div>
+
+  <script>
+    // Mobile navigation
+    const menuToggle = document.getElementById("menu-toggle");
+    const navigation = document.getElementById("main-navigation");
+
+    menuToggle.addEventListener("click", function () {
+      const isOpen = navigation.classList.toggle("is-open");
+
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Close navigation menu" : "Open navigation menu"
+      );
+
+      menuToggle.textContent = isOpen ? "×" : "☰";
+    });
+
+    // Close the mobile menu after selecting a navigation link
+    navigation.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        navigation.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation menu");
+        menuToggle.textContent = "☰";
+      });
+    });
+
+    // Current year
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>
